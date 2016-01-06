@@ -11,7 +11,7 @@ Complex System:
   
   4. Standing Ovation
   
-  5. Schelling - "You might not be surprised to hear that this model leads to some segregation, but you might be surprised by the degree. Fairly quickly, clusters of similar agents appear. The clusters grow and coalesce over time until there are a small number of large clusters and most agents live in homogeneous neighborhoods.Schelling’s model demonstrates a possible cause of segregation, but says nothing about actual causes." [2] The theory of 'tipping' phenomena begins to emerge [1]
+  5. Schelling - "You might not be surprised to hear that this model leads to some segregation, but you might be surprised by the degree. Fairly quickly, clusters of similar agents appear. The clusters grow and coalesce over time until there are a small number of large clusters and most agents live in homogeneous neighborhoods.Schelling’s model demonstrates a possible cause of segregation, but says nothing about actual causes." [2] The theory of 'tipping' phenomena begins to emerge. [1]
 
   
 Neural Network
