@@ -1,28 +1,36 @@
 # Matlab_Programming
-A repository for matlab codes from complex systems, neural network, machine learning, data science.
+A repository for matlab codes from complex systems, neural network, machine learning, data science, probability models.
 
 
-Complex System: 
+I. Complex System: 
+
+Self-organizing Criticality: 
   1. Sandpile 
 
-  2. Boids
-  
-  3. Traffic 
-  
-  4. Standing Ovation
-  
-  5. Schelling - "You might not be surprised to hear that this model leads to some segregation, but you might be surprised by the degree. Fairly quickly, clusters of similar agents appear. The clusters grow and coalesce over time until there are a small number of large clusters and most agents live in homogeneous neighborhoods.Schelling’s model demonstrates a possible cause of segregation, but says nothing about actual causes." [2] The theory of 'tipping' phenomena begins to emerge. [1]
+Agent-Based Models: 
+  1. Boids
+  2. Traffic 
+  3. Standing Ovation
+  4. Schelling - "You might not be surprised to hear that this model leads to some segregation, but you might be surprised by the degree. Fairly quickly, clusters of similar agents appear. The clusters grow and coalesce over time until there are a small number of large clusters and most agents live in homogeneous neighborhoods.Schelling’s model demonstrates a possible cause of segregation, but says nothing about actual causes." [2] The theory of 'tipping' phenomena begins to emerge. [1]
 
-  
-Neural Network
+Fractals: 
+  1. Percolation
+  2. Fractals Cellular Automata
+
+Game of Life: 
+  1. Conway's Game of Life
+
+Scale-free Networks: 
+  1. Zipfs Law
+II. Neural Network
   1. Feedforward propagation 
   2. 
 
-Machine Learning 
+III. Machine Learning 
   1. svm
   2. 
   
-Data Science
+IV. Data Science
   1. 
 
 
