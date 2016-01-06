@@ -29,9 +29,8 @@ for i=1:((wSize^2)-empty)
 end 
 
 for i=1:wSize^2
- [grid_state(i),ctr]=agent_state(i,grid_agent,wSize); % 1 is "red", 2 is "blue"
+ grid_state(i)=agent_state(i,grid_agent,wSize); % 1 is "red", 2 is "blue"
 end 
-
 
 % 1 is happy, 2 is unhappy
 %4 possible states: 

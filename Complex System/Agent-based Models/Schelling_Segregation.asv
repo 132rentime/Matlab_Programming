@@ -28,10 +28,17 @@ for i=1:((wSize^2)-empty)
  grid_agent(sampledLoc(i))=randi(2); % 1 is "red", 2 is "blue"
 end 
 
-for i=1:((wSize^2)-empty)
- grid_state(sampledLoc(i))=agent_state(grid_agent,wSize); % 1 is "red", 2 is "blue"
+% adding edges: 0
+world_agent = zeros(wSize+2,wSize+2);
+world_agent(2:wSize+1,2:wSize+1)= grid_agent(1:wSize,1:wSize); 
+
+for i=1:wSize^2
+ [grid_state(i),ctr]=agent_state(i,world_agent,wSize); % 1 is "red", 2 is "blue"
 end 
 
+% adding edges: 0
+world_state = zeros(wSize+2,wSize+2);
+world_state(2:wSize+1,2:wSize+1)= grid_sat(1:wSize,1:wSize); 
 
 % 1 is happy, 2 is unhappy
 %4 possible states: 
