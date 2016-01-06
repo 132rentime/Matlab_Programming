@@ -22,6 +22,8 @@ Game of Life:
 
 Scale-free Networks: 
   1. Zipfs Law
+
+
 II. Neural Network
   1. Feedforward propagation 
   2. 
