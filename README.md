@@ -9,4 +9,14 @@ Complex System:
   4. Standing Ovation
   5. Schelling
   
-M
+Neural Network
+  1. Feedforward propagation 
+  2. 
+
+Machine Learning 
+  1. svm
+  2. 
+  
+Data Science
+  1. 
+
