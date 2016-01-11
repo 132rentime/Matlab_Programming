@@ -39,7 +39,7 @@ end
 
 % agent_state decision making depending on the number of neighbors 
 % that are happy or unhappy.
-if ctr >= 2  
+if ctr >= 3  
    state = 9; % happy
    ctr = 0; 
 else 

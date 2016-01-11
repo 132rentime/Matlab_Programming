@@ -17,7 +17,7 @@ clear all
 % Iterations: choice a random agent and check to see if it is happy, do
 %             nothing, else agent is not happy, choose one of the unoccupied cells at random and move
 
-wSize = 10;
+wSize = 20;
 empty = round(0.05*wSize^2);
 grid_agent = zeros(wSize,wSize);
 grid_state = zeros(wSize,wSize);
@@ -25,7 +25,7 @@ sampledLoc = datasample(1:(wSize^2),((wSize^2)-empty),'Replace',false);
 
 
 for i=1:((wSize^2)-empty)
- grid_agent(sampledLoc(i))=randi(2); % 1 is "red", 2 is "blue"
+ grid_agent(sampledLoc(i))=datasample([30,75],1); % 1 is "red", 2 is "blue"
 end 
 
 
@@ -56,5 +56,7 @@ grid_state(1:wSize,1:wSize) = world_state(2:wSize+1,2:wSize+1);
 grid_agent_update = adjCheck(grid_state,grid_agent,wSize);
 
 
-image(10*grid_agent);
-image(10*grid_agent_update);
+figure(1)
+image(grid_agent);
+figure(2)
+image(grid_agent_update);
