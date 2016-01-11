@@ -8,7 +8,7 @@ Self-organizing Criticality:
   1. Sandpile 
 
 Agent-Based Models: 
-  1. Boids - In 1986, Chris Reynolds made a computer model of coordinated animal motion such as bird flocks and fish school, based on three dimensional computational geometry. The generic simulated flocking creatures are called boids. [3]
+  1. Boids - In 1986, Chris Reynolds made a computer model of coordinated animal motion such as bird flocks and fish school, based on three dimensional computational geometry. The generic simulated flocking creatures are called boids.[3]
   
   2. Traffic 
   3. Standing Ovation - 
