@@ -39,8 +39,7 @@ IV. Data Science
 
 
 
+References:
 [1]. Dynamics of Segregation, Thomas C. Schelling, Journal of Sociology, 1971, pp.143-186, Vol. 1
-
 [2]. Think Complexity, A. B. Downey
-
 [3]. http://www.red3d.com/cwr/boids/
