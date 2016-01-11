@@ -8,9 +8,11 @@ Self-organizing Criticality:
   1. Sandpile 
 
 Agent-Based Models: 
-  1. Boids
+  1. Boids - In 1986, Chris Reynolds made a computer model of coordinated animal motion such as bird flocks and fish school, based on three dimensional computational geometry. The generic simulated flocking creatures are called boids. [3]
+  
   2. Traffic 
-  3. Standing Ovation
+  3. Standing Ovation - 
+
   4. Schelling - "You might not be surprised to hear that this model leads to some segregation, but you might be surprised by the degree. Fairly quickly, clusters of similar agents appear. The clusters grow and coalesce over time until there are a small number of large clusters and most agents live in homogeneous neighborhoods.Schelling’s model demonstrates a possible cause of segregation, but says nothing about actual causes." [2] The theory of 'tipping' phenomena begins to emerge. [1]
 
 Fractals: 
@@ -29,7 +31,7 @@ II. Neural Network
   2. 
 
 III. Machine Learning 
-  1. svm
+  1. Support Vector Machine
   2. 
   
 IV. Data Science
@@ -39,3 +41,4 @@ IV. Data Science
 
 [1]. Dynamics of Segregation, Thomas C. Schelling, Journal of Sociology, 1971, pp.143-186, Vol. 1
 [2]. Think Complexity, A. B. Downey
+[3]. http://www.red3d.com/cwr/boids/
