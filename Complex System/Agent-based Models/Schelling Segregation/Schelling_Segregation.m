@@ -1,7 +1,8 @@
 clear all
-% Agent-Based Modelling - Thomas Schelling 
-% Dynamic Models of Segregation 
-
+% Tile  : Agent-Based Modelling - Thomas Schelling 
+% Source: Dynamic Models of Segregation 
+% Author: A.V. Camposano
+% Date  : January,10,2016
 
 % Dynamic: 
 % each cell = house
@@ -17,7 +18,7 @@ clear all
 % Iterations: choice a random agent and check to see if it is happy, do
 %             nothing, else agent is not happy, choose one of the unoccupied cells at random and move
 
-wSize = 50;
+wSize = 35;
 empty = round(0.10*wSize^2);
 grid_agent = zeros(wSize,wSize);
 grid_state = zeros(wSize,wSize);
