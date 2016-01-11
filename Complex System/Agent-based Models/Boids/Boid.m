@@ -1,7 +1,7 @@
 clear all;
 % Title : Simulation of the Flocking Behavior of Birds with the Boids Algorithm 
 % Author: A. V. Camposano
-% Date  : January, 2, 2016
+% Date  : January, 10, 2016
 
 % Data: A group of boids 
 % Results: Simulates flocking behaviour with an animation
