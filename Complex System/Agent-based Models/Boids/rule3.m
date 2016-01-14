@@ -1,5 +1,5 @@
 function v3 = rule3(b_velocity,b,j)
-pVelocity = zeros(1,3);
+pVelocity = zeros(1,2);
 
 % perceived velocity
 for i=1:b
@@ -8,5 +8,5 @@ for i=1:b
   end 
 end 
 pVelocity = pVelocity/(b-1);
-v3 = (pVelocity-b_velocity(j,:))/8;
+v3 = (pVelocity-b_velocity(j,:))/100;
 end     

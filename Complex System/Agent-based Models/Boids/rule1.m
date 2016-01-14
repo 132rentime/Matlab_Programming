@@ -2,7 +2,7 @@
 % Rule 1: Boids try to fly towards the centre of mass of neighbouring boids
 
 function v1 = rule1(b_positions,b,i)
-pCenter  = zeros(1,3);
+pCenter  = zeros(1,2);
 
 for j=1:b
     diff = b_positions(j,:) - b_positions(i,:);
