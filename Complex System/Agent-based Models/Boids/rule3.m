@@ -1,5 +1,6 @@
+
 function v3 = rule3(b_velocity,b,j)
-pVelocity = zeros(1,2);
+pVelocity = zeros(1,3);
 
 % perceived velocity
 for i=1:b

@@ -1,7 +1,7 @@
 % Rule 2: Boids try to keep a small distance away from other objects (including other boids)_
 
 function c = rule2(b_positions,b,i)
-c = zeros(1,2);
+c = zeros(1,3);
 
 for j=1:b
    if j~=i 

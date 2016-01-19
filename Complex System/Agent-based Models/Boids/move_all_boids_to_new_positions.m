@@ -1,5 +1,5 @@
 function [b_positions,b_velocity] = move_all_boids_to_new_positions(b_positions,b_velocity,b)
-vlim = 200;
+vlim = 150;
 
 % The three boids rules sufficiently demonstrate a complex emergent flocking behaviour.
 for i=1:b
