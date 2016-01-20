@@ -5,19 +5,10 @@
 
 clear all;
 filename = 'D:\Complex System\Earthquake_200NM.xls';
-mag = xlsread(filename,'D:D');   
-b = unique(mag);
-l = length(b);
-xLength = length(mag);
-freq = zeros(l,1);
+mag = xlsread(filename,'D:D');  
 
-for i=1:l
-   for j = 1:xLength
-     if mag(j)== b(i)
-         freq(i) = freq(i)+1;
-     end 
-   end  
-end 
+[freq,b] = frequency(mag);
+
 hold on;
 axis manual;
 axis([0 10 0 10]);
