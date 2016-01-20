@@ -7,7 +7,7 @@ function location = gameoflifeRule(grid,L,size)
 location = find(grid == 255);
 ctr = 0; 
 
- for i=1:length(location)
+for i=1:length(location)
      % Neighbor examination 
      for j = 1:8
         if grid(i+L) == grid(L) | grid(i-1) == grid(L) | grid(i+1) == grid(L)| grid(i-L) == grid(L)|grid(i-L-1) == grid(L)|grid(i-L+1) == grid(L)|grid(i+L-1) == grid(L)|grid(i+L+1) == grid(L)
@@ -16,6 +16,7 @@ ctr = 0;
      end
      
      if ctr == 3
+         
         xloc = randi(L,1);
         yloc = randi(L,1);
      elseif ctr < 2
@@ -25,7 +26,4 @@ ctr = 0;
      end 
  end
  
- 
-
-
-end 
+ end 

@@ -15,6 +15,7 @@ grid = zeros(L,L);
 world_grid = zeros(L+2,L+2);
 % initial state
 % starting size = 10
+
 for i=1:size
     xloc = randi(L,1);
     yloc = randi(L,1);
@@ -25,3 +26,5 @@ world_grid(2:L+1,2:L+1) = grid(:,:);
 
 location = gameoflifeRule(grid,L,size);
 image((grid));
+
+% 
