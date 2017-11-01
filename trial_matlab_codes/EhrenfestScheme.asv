@@ -57,7 +57,7 @@ hold off;
 
 
 % A slight modification by Johnson and Kotz (1977)
-% Model 2. As in Model 1, we have an urn
+% Model 2. Same with Model 1, we have an urn
 % with w white balls and b black balls.
 % At each trial a ball is drawn at random.
 % If it is white, replace it by:
